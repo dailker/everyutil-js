@@ -35,6 +35,16 @@ export * from './array/timeSeriesDelta';
 export * from './array/transpose';
 export * from './array/withIndex';
 export * from './array/zipDiagonals';
+export * from './array/windowedReduce';
+export * from './array/arrayIntersections';
+export * from './array/arraySymmetricDifference';
+export * from './array/arrayCumulativeProduct';
+export * from './array/arrayFrequencyMap';
+export * from './array/arraySpliceMultiple';
+export * from './array/arrayLongestIncreasingSubsequence';
+export * from './array/arrayStableSort';
+export * from './array/arrayUniqueByKey';
+export * from './array/arrayRotateChunks';
 
 // Number utilities
 export * from './number/coefficientOfVariation'; // If typo, use correct file: coefficientOfVariation
@@ -68,8 +78,29 @@ export * from './number/spiralNumberMatrix';
 export * from './number/toBase';
 export * from './number/weightedRandom';
 export * from './number/wrapNumber';
+export * from './number/isHarshadNumber';
+export * from './number/nextPrime';
+export * from './number/primeSieve';
+export * from './number/modularExponentiation';
+export * from './number/factorial';
+export * from './number/isPerfectNumber';
+export * from './number/lerp';
+export * from './number/normalizeAngle';
+export * from './number/bernoulliNumber';
+export * from './number/digitSumInBase';
 
 // String utilities
+export * from './string/toLeetspeak';
+export * from './string/findAnagrams';
+export * from './string/extractNumbersFromString';
+export * from './string/stringEditDistance';
+export * from './string/randomStringFromCharset';
+export * from './string/htmlEscape';
+export * from './string/htmlUnescape';
+export * from './string/countWords';
+export * from './string/titleCase';
+export * from './string/reverseWords';
+export * from './string/stringTruncateByWords';
 export * from './string/stringSimilarity';
 export * from './string/extractKeywords';
 export * from './string/detectLanguage';
