@@ -3,8 +3,8 @@
  * @author @dailker
  * @param {Date} date - The start date.
  * @param {number} days - Number of business days to add.
- * @param {Date[]} [holidays=[]] - Optional array of holidays.
- * @returns {Date} The resulting date.
+ * @param {Date[]} [holidays=[]] - Optional array of holidays (dates that should be skipped).
+ * @returns {Date} The resulting date after adding the business days.
  */
 export function addBusinessDays(date: Date, days: number, holidays: Date[] = []): Date {
   let result = new Date(date);
