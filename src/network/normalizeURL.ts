@@ -1,19 +1,19 @@
 /**
- * Normalizes a URL (lowercase scheme/host, remove default ports, trailing slashes).
+ * Normalizes a URL: removes trailing slashes, sorts query params, etc.
  *
- * Example: normalizeURL("HTTP://EXAMPLE.COM:80/") → "http://example.com/"
+ * Example: normalizeURL('https://a.com/foo/?b=2&a=1') → 'https://a.com/foo?a=1&b=2'
  *
  * @author @dailker
- * @param {string} url - The URL string.
+ * @param {string} url - The URL to normalize.
  * @returns {string} The normalized URL.
  */
 export function normalizeURL(url: string): string {
   try {
-    const u = new URL(url);
-    let port = u.port;
-    if ((u.protocol === 'http:' && u.port === '80') || (u.protocol === 'https:' && u.port === '443')) port = '';
-    let path = u.pathname.endsWith('/') ? u.pathname : u.pathname + '/';
-    return `${u.protocol.toLowerCase()}//${u.hostname.toLowerCase()}${port ? ':' + port : ''}${path}${u.search}${u.hash}`;
+    const u = new URL(url, 'http://x');
+    u.pathname = u.pathname.replace(/\/+$/, '');
+    const params = Array.from(u.searchParams.entries()).sort(([a], [b]) => a.localeCompare(b));
+    u.search = params.map(([k, v]) => `${k}=${v}`).join('&');
+    return u.origin + u.pathname + (u.search ? '?' + u.search : '') + (u.hash || '');
   } catch {
     return url;
   }

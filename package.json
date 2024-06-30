@@ -20,6 +20,13 @@
   },
   "homepage": "https://github.com/dailkker/everyutil#readme",
   "dependencies": {
+    "adm-zip": "^0.5.16",
+    "diskusage": "^1.2.0",
+    "exif-parser": "^0.1.12",
+    "http-proxy": "^1.18.1",
+    "jschardet": "^3.1.4",
+    "mime-types": "^3.0.1",
+    "proper-lockfile": "^4.1.2",
     "typescript": "^4.0.0"
   },
   "keywords": [
@@ -96,6 +103,10 @@
     "obscure email"
   ],
   "devDependencies": {
-    "@types/node": "^14.0.0"
+    "@types/adm-zip": "^0.5.7",
+    "@types/http-proxy": "^1.17.16",
+    "@types/mime-types": "^3.0.1",
+    "@types/node": "^14.18.63",
+    "@types/proper-lockfile": "^4.1.4"
   }
 }
