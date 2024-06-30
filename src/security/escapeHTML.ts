@@ -6,5 +6,5 @@
  * @returns {string} The escaped string.
  */
 export function escapeHTML(str: string): string {
-    return str.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    return str.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c] || ''));
 }

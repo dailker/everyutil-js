@@ -10,7 +10,8 @@ export async function watchAndSync(src: string, dest: string): Promise<void> {
     const chokidar = await import('chokidar');
     const { syncDirectories } = await import('./syncDirectories');
     await syncDirectories(src, dest, { overwrite: true });
-    chokidar.watch(src, { ignoreInitial: true }).on('all', async () => {
+    const watcher: any = chokidar.watch(src, { ignoreInitial: true });
+    watcher.on('all', async () => {
         await syncDirectories(src, dest, { overwrite: true });
     });
 }

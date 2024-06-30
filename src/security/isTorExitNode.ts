@@ -8,9 +8,9 @@
 export async function isTorExitNode(ip: string): Promise<boolean> {
     const https = require('https');
     return new Promise(resolve => {
-        https.get('https://check.torproject.org/exit-addresses', res => {
+        https.get('https://check.torproject.org/exit-addresses', (res: any) => {
             let data = '';
-            res.on('data', chunk => data += chunk);
+            res.on('data', (chunk: any) => data += chunk);
             res.on('end', () => resolve(data.includes(ip)));
         }).on('error', () => resolve(false));
     });
