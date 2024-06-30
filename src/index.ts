@@ -243,3 +243,9 @@ export * from './object/deepCompact';
 export * from './object/expandDotNotation';
 // Logic utilities
 export * from './logic';
+
+// Color utilities
+export * from './color';
+
+// Statistic utilities
+export * from './statistic'
