@@ -252,3 +252,39 @@ export * from './statistic';
 
 // Network utilities
 export * from './network';
+
+// Metadata and Tag utilities
+export * from './fs'
+export * from './fs/syncDirectories';
+export * from './fs/watchAndSync';
+export * from './fs/compareDirectories';
+export * from './fs/resolveConflicts';
+export * from './fs/SyncOptions';
+export * from './fs/FileDiff';
+export * from './fs/ConflictStrategy';
+export * from './fs/generateChecksum';
+export * from './fs/verifyChecksum';
+export * from './fs/compareFileHashes';
+export * from './fs/scanDirectoryForDuplicates';
+export * from './fs/secureDelete';
+export * from './fs/setFilePermissions';
+export * from './fs/getFilePermissions';
+export * from './fs/convertEncoding';
+export * from './fs/convertImageFormat';
+export * from './fs/convertAudioFormat';
+export * from './fs/clearCache';
+export * from './fs/cacheFile';
+export * from './fs/isFileCached';
+export * from './fs/safeParseJSON';
+export * from './fs/stringifyJSON';
+export * from './fs/parseWithReviver';
+export * from './fs/parseYAML';
+export * from './fs/stringifyYAML';
+export * from './fs/parseTOML';
+export * from './fs/stringifyTOML';
+export * from './fs/validateWithSchema';
+
+//Compress
+export * from './compression'
+
+// Security utilities now exported from security/index.ts
