@@ -248,4 +248,7 @@ export * from './logic';
 export * from './color';
 
 // Statistic utilities
-export * from './statistic'
+export * from './statistic';
+
+// Network utilities
+export * from './network';
