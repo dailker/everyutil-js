@@ -22,8 +22,8 @@ unique([1, 2, 2, 3]); // [1, 2, 3]
 
 ## Documentation
 
-- [String Utilities](./docs/STRING_UTILS.md)
-- [Number Utilities](./docs/NUMBER_UTILS.md)
-- [Array Utilities](./docs/ARRAY_UTILS.md)
+- [String Utilities](https://github.com/dailker/everyutil/blob/main/docs/STRING_UTILS.md)
+- [Number Utilities](https://github.com/dailker/everyutil/blob/main/docs/NUMBER_UTILS.md)
+- [Array Utilities](https://github.com/dailker/everyutil/blob/main/docs/ARRAY_UTILS.md)
 
 Each sub-README links back here for easy navigation.
