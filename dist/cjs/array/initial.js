@@ -1,9 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.initial = initial;
-// Returns all but the last element of array.
-function initial(array) {
-    if (!Array.isArray(array))
-        return [];
-    return array.slice(0, -1);
+/**
+ * Gets all but the last element of array.
+ * @author dailker
+ * @param arr - The array to query.
+ * @returns A slice of array excluding the last element.
+ */
+function initial(arr) {
+    return arr.slice(0, -1);
 }

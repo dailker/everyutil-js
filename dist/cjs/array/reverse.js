@@ -1,12 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.reverse = reverse;
-/**
- * Reverses array in place and returns it.
- * @author dailker
- * @param arr - The array to modify.
- * @returns The reversed array.
- */
-function reverse(arr) {
-    return arr.reverse();
+// Returns a new array with the elements in reverse order.
+function reverse(array) {
+    if (!Array.isArray(array))
+        return [];
+    return array.slice().reverse();
 }

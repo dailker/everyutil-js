@@ -1,7 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isEqual = isEqual;
-// Performs a deep comparison between two values.
+/**
+ * Performs a deep comparison between two values to determine if they are equivalent.
+ * @author dailker
+ * @param a - The first value to compare.
+ * @param b - The second value to compare.
+ * @returns True if the values are equivalent, otherwise false.
+ * @category Object
+ * @example
+ * isEqual({ a: 1 }, { a: 1 }); // true
+ */
 function isEqual(a, b) {
     if (a === b)
         return true;

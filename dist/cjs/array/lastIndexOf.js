@@ -1,14 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.lastIndexOf = lastIndexOf;
-// Returns the index of the last occurrence of value in array.
-function lastIndexOf(array, value, fromIndex) {
-    if (!Array.isArray(array))
-        return -1;
-    let i = fromIndex === undefined ? array.length - 1 : fromIndex;
-    for (; i >= 0; i--) {
-        if (array[i] === value)
-            return i;
-    }
-    return -1;
+/**
+ * Gets the last index at which a given element can be found in the array.
+ * @author dailker
+ * @param arr - The array to search.
+ * @param value - The value to search for.
+ * @returns The last index of the found element, else -1.
+ */
+function lastIndexOf(arr, value) {
+    return arr.lastIndexOf(value);
 }
