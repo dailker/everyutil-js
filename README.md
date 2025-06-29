@@ -44,5 +44,9 @@ randArray({ length: 5, dtype: 'int', min: 10, max: 20 }); // e.g. [13, 19, 10, 1
 - [Number Utilities](https://github.com/dailker/everyutil/blob/main/docs/NUMBER_UTILS.md)
 - [Array Utilities](https://github.com/dailker/everyutil/blob/main/docs/ARRAY_UTILS.md)
 - [Math Utilities](https://github.com/dailker/everyutil/blob/main/docs/MATH_UTILS.md)
+- [Function Utilities](https://github.com/dailker/everyutil/blob/main/docs/FUNCTION_UTILS.md)
+- [Object Utilities](https://github.com/dailker/everyutil/blob/main/docs/OBJECT_UTILS.md)
+- [Lang Utilities](https://github.com/dailker/everyutil/blob/main/docs/LANG_UTILS.md)
+- [Date Utilities](https://github.com/dailker/everyutil/blob/main/docs/DATE_UTILS.md)
 
 Each sub-README links back here for easy navigation.
