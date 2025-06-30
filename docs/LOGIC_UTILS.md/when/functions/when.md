@@ -1,0 +1,47 @@
+[**LOGIC_UTILS**](../../README.md)
+
+***
+
+[LOGIC_UTILS](../../README.md) / [when](../README.md) / when
+
+# Function: when()
+
+> **when**\<`T`\>(`predicate`, `transform`): (`input`) => `T`
+
+Defined in: [when.ts:5](https://github.com/dailker/everyutil/blob/2581c2d178bc530a012cdac45251b2404ba4d9ac/src/logic/when.ts#L5)
+
+Conditionally apply a transformation function.
+
+## Type Parameters
+
+### T
+
+`T`
+
+## Parameters
+
+### predicate
+
+(`input`) => `boolean`
+
+### transform
+
+(`input`) => `T`
+
+## Returns
+
+> (`input`): `T`
+
+### Parameters
+
+#### input
+
+`T`
+
+### Returns
+
+`T`
+
+## Author
+
+## Dailker
