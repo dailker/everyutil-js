@@ -1,9 +1,11 @@
 # Number Utilities
 
-- `clamp(num, min, max)`
-- `randomInt(min, max)`
-- `isEven(num)`
-- `isOdd(num)`
-- `roundTo(num, decimals)`
+| Function                    | Description                |
+|-----------------------------|---------------------------|
+| `clamp(num, min, max)`      | Clamps number in range    |
+| `randomInt(min, max)`       | Random integer in range   |
+| `isEven(num)`               | Checks if number is even  |
+| `isOdd(num)`                | Checks if number is odd   |
+| `roundTo(num, decimals)`    | Rounds to decimals        |
 
-See [String Utilities](./STRING_UTILS.md) | [Array Utilities](./ARRAY_UTILS.md) | [Back to Main README](../README.md)
+See [String Utilities](./STRING_UTILS.md) &#124; [Number Utilities](./NUMBER_UTILS.md) &#124; [Back to Main README](../README.md)
