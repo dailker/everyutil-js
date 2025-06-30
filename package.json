@@ -1,10 +1,14 @@
-﻿{
+{
     "name":  "everyutil",
-    "version":  "1.0.0",
+    "version":  "1.0.1",
     "description":  "An all in one utility library for JavaScript/TypeScript.",
     "main":  "dist/cjs/index.js",
     "module":  "dist/esm/index.js",
     "types":  "dist/esm/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dailker/everyutil.git"
+    },
     "exports":  {
                     "import":  "./dist/esm/index.js",
                     "require":  "./dist/cjs/index.js"
@@ -52,6 +56,10 @@
                      "shuffle",
                      "prometheus"
                  ],
-    "author":  "",
+    "author":  {
+        "name":  "Ilker Ozturk (@dailker)",
+        "email":  "contact@theilker.com",
+        "url":  "https://github.com/dailker"
+    },
     "license":  "MIT"
 }
