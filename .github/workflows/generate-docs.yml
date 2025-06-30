@@ -1,0 +1,44 @@
+name: Generate Docs
+
+on:
+  push:
+    paths:
+      - 'src/**.ts'
+      - '.github/workflows/generate-docs.yml'
+  workflow_dispatch:
+
+jobs:
+  generate-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install --ignore-scripts
+
+      - name: Install TypeDoc
+        run: npm install --save-dev typedoc
+
+      - name: Generate category docs
+        run: |
+          mkdir -p docs
+          for category in src/*; do
+            if [ -d "$category" ]; then
+              catname=$(basename "$category" | tr '[:lower:]' '[:upper:]')
+              npx typedoc --entryPoints "$category" --plugin typedoc-plugin-markdown --out "docs/${catname}_UTILS" --name "${catname}_UTILS" --hideBreadcrumbs --hidePageTitle --readme none
+            fi
+          done
+
+      - name: Commit and push docs
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/*.md
+          git diff --cached --quiet || git commit -m "chore(docs): auto-generate category docs"
+          git push
