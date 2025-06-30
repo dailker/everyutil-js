@@ -1,0 +1,27 @@
+[**OBJECT_UTILS**](../../README.md)
+
+***
+
+[OBJECT_UTILS](../../README.md) / [objectChecksum](../README.md) / objectChecksum
+
+# Function: objectChecksum()
+
+> **objectChecksum**(`obj`): `string`
+
+Defined in: [objectChecksum.ts:7](https://github.com/dailker/everyutil/blob/9768d00ced16ec8f4705df34c2fe47f2b1b47121/src/object/objectChecksum.ts#L7)
+
+Creates a hash from an object’s structure and values (useful for caching).
+
+## Parameters
+
+### obj
+
+`any`
+
+## Returns
+
+`string`
+
+## Author
+
+## Dailker
