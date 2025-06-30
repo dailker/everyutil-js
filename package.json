@@ -1,0 +1,57 @@
+﻿{
+    "name":  "everyutil",
+    "version":  "1.0.0",
+    "description":  "An all in one utility library for JavaScript/TypeScript.",
+    "main":  "dist/cjs/index.js",
+    "module":  "dist/esm/index.js",
+    "types":  "dist/esm/index.d.ts",
+    "exports":  {
+                    "import":  "./dist/esm/index.js",
+                    "require":  "./dist/cjs/index.js"
+                },
+    "files":  [
+                  "dist"
+              ],
+    "scripts":  {
+                    "build:esm":  "tsc --project tsconfig.json",
+                    "build:cjs":  "tsc --project tsconfig.cjs.json",
+                    "build":  "npm run build:esm \u0026\u0026 npm run build:cjs"
+                },
+    "keywords":  [
+                     "utility",
+                     "utilities",
+                     "util",
+                     "helpers",
+                     "helper",
+                     "toolkit",
+                     "toolbox",
+                     "typescript",
+                     "javascript",
+                     "string",
+                     "number",
+                     "array",
+                     "isEmpty",
+                     "deepClone",
+                     "capitalize",
+                     "camelCase",
+                     "kebabCase",
+                     "snakeCase",
+                     "reverse",
+                     "truncate",
+                     "clamp",
+                     "random",
+                     "even",
+                     "odd",
+                     "round",
+                     "unique",
+                     "flatten",
+                     "chunk",
+                     "compact",
+                     "difference",
+                     "intersection",
+                     "shuffle",
+                     "prometheus"
+                 ],
+    "author":  "",
+    "license":  "MIT"
+}
