@@ -1,0 +1,43 @@
+[**LOGIC_UTILS**](../../README.md)
+
+***
+
+[LOGIC_UTILS](../../README.md) / [predicateSome](../README.md) / predicateSome
+
+# Function: predicateSome()
+
+> **predicateSome**\<`T`\>(`predicates`): (`input`) => `boolean`
+
+Defined in: [predicateSome.ts:5](https://github.com/dailker/everyutil/blob/c1119b9befc384594ad07b4277ef37c36f79d0c2/src/logic/predicateSome.ts#L5)
+
+Like Array.some but for predicates over a single input.
+
+## Type Parameters
+
+### T
+
+`T`
+
+## Parameters
+
+### predicates
+
+(`input`) => `boolean`[]
+
+## Returns
+
+> (`input`): `boolean`
+
+### Parameters
+
+#### input
+
+`T`
+
+### Returns
+
+`boolean`
+
+## Author
+
+## Dailker
