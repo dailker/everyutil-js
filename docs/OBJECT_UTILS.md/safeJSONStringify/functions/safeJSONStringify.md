@@ -1,0 +1,27 @@
+[**OBJECT_UTILS**](../../README.md)
+
+***
+
+[OBJECT_UTILS](../../README.md) / [safeJSONStringify](../README.md) / safeJSONStringify
+
+# Function: safeJSONStringify()
+
+> **safeJSONStringify**(`obj`): `string`
+
+Defined in: [safeJSONStringify.ts:7](https://github.com/dailker/everyutil/blob/d23995f7a19ece1a6ce5b53178b9a1040d0b558e/src/object/safeJSONStringify.ts#L7)
+
+Stringifies object safely handling cycles (circular refs).
+
+## Parameters
+
+### obj
+
+`any`
+
+## Returns
+
+`string`
+
+## Author
+
+## Dailker
