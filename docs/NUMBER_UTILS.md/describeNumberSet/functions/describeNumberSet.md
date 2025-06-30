@@ -1,0 +1,31 @@
+[**NUMBER_UTILS**](../../README.md)
+
+***
+
+[NUMBER_UTILS](../../README.md) / [describeNumberSet](../README.md) / describeNumberSet
+
+# Function: describeNumberSet()
+
+> **describeNumberSet**(`numbers`): `string`
+
+Defined in: [describeNumberSet.ts:7](https://github.com/dailker/everyutil/blob/e265d7544f4e799da268d038a0a464c889a18367/src/number/describeNumberSet.ts#L7)
+
+Returns a summary description of a set of numbers, including range, mean, std dev, and outlier count.
+
+## Parameters
+
+### numbers
+
+`number`[]
+
+The array of numbers to describe.
+
+## Returns
+
+`string`
+
+A summary string describing the number set.
+
+## Author
+
+## Dailker
