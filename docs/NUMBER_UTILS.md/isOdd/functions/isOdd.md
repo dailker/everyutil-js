@@ -1,0 +1,31 @@
+[**NUMBER_UTILS**](../../README.md)
+
+***
+
+[NUMBER_UTILS](../../README.md) / [isOdd](../README.md) / isOdd
+
+# Function: isOdd()
+
+> **isOdd**(`num`): `boolean`
+
+Defined in: [isOdd.ts:7](https://github.com/dailker/everyutil/blob/f4f23239544adddf4db86c16dea30bd7bb33b26e/src/number/isOdd.ts#L7)
+
+Checks if a number is odd.
+
+## Parameters
+
+### num
+
+`number`
+
+The number to check.
+
+## Returns
+
+`boolean`
+
+True if the number is odd, false otherwise.
+
+## Author
+
+dailker
