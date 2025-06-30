@@ -1,10 +1,12 @@
 # String Utilities
 
-- `capitalize(str)`
-- `toCamelCase(str)`
-- `toKebabCase(str)`
-- `toSnakeCase(str)`
-- `reverseString(str)`
-- `truncate(str, length, ending?)`
+| Function                        | Description                |
+|----------------------------------|---------------------------|
+| `capitalize(str)`                | Capitalizes first letter  |
+| `toCamelCase(str)`               | Converts to camelCase     |
+| `toKebabCase(str)`               | Converts to kebab-case    |
+| `toSnakeCase(str)`               | Converts to snake_case    |
+| `reverseString(str)`             | Reverses the string       |
+| `truncate(str, length, ending?)` | Truncates the string      |
 
-See [Number Utilities](./NUMBER_UTILS.md) | [Array Utilities](./ARRAY_UTILS.md) | [Back to Main README](../README.md)
+See [String Utilities](./STRING_UTILS.md) &#124; [Number Utilities](./NUMBER_UTILS.md) &#124; [Back to Main README](../README.md)
