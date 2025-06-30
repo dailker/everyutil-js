@@ -1,0 +1,46 @@
+**NETWORK_UTILS**
+
+***
+
+# NETWORK_UTILS
+
+## Modules
+
+- [addAuthHeader](addAuthHeader/README.md)
+- [appendCDNPrefix](appendCDNPrefix/README.md)
+- [batchFetch](batchFetch/README.md)
+- [batchGraphQLRequests](batchGraphQLRequests/README.md)
+- [buildGraphQLRequest](buildGraphQLRequest/README.md)
+- [buildURL](buildURL/README.md)
+- [cachedFetch](cachedFetch/README.md)
+- [canonicalizeURL](canonicalizeURL/README.md)
+- [checkOnlineStatus](checkOnlineStatus/README.md)
+- [combineFetchers](combineFetchers/README.md)
+- [compareURLs](compareURLs/README.md)
+- [createFakeServer](createFakeServer/README.md)
+- [createMockFetch](createMockFetch/README.md)
+- [createRequestRecorder](createRequestRecorder/README.md)
+- [createWebSocketClient](createWebSocketClient/README.md)
+- [decodeQueryParam](decodeQueryParam/README.md)
+- [decodeURIComponentSafe](decodeURIComponentSafe/README.md)
+- [detectProtocol](detectProtocol/README.md)
+- [downloadAsBlob](downloadAsBlob/README.md)
+- [encodeQueryParam](encodeQueryParam/README.md)
+- [encodeURIComponentRFC3986](encodeURIComponentRFC3986/README.md)
+- [extractPathParams](extractPathParams/README.md)
+- [extractQueryParams](extractQueryParams/README.md)
+- [fetchJSON](fetchJSON/README.md)
+- [fetchMemoized](fetchMemoized/README.md)
+- [fetchUtils](fetchUtils/README.md)
+- [fetchWithETagCaching](fetchWithETagCaching/README.md)
+- [fetchWithProgress](fetchWithProgress/README.md)
+- [fetchWithRetry](fetchWithRetry/README.md)
+- [fetchWithTimeout](fetchWithTimeout/README.md)
+- [forceHttps](forceHttps/README.md)
+- [generateCacheBustedURL](generateCacheBustedURL/README.md)
+- [getBaseURL](getBaseURL/README.md)
+- [getConnectionType](getConnectionType/README.md)
+- [getContentType](getContentType/README.md)
+- [getDomainFromEmail](getDomainFromEmail/README.md)
+- [getGeoBasedURL](getGeoBasedURL/README.md)
+- [getHeadersCaseInsensitive](getHeadersCaseInsensitive/README.md)
