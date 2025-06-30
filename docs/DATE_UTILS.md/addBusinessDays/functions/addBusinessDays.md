@@ -1,0 +1,43 @@
+[**DATE_UTILS**](../../README.md)
+
+***
+
+[DATE_UTILS](../../README.md) / [addBusinessDays](../README.md) / addBusinessDays
+
+# Function: addBusinessDays()
+
+> **addBusinessDays**(`date`, `days`, `holidays?`): `Date`
+
+Defined in: [addBusinessDays.ts:9](https://github.com/dailker/everyutil/blob/c097f0fc92f833ed4a91824bfd902e8ca984c4de/src/date/addBusinessDays.ts#L9)
+
+Adds N business days to a date, skipping weekends and optional holidays.
+
+## Parameters
+
+### date
+
+`Date`
+
+The start date.
+
+### days
+
+`number`
+
+Number of business days to add.
+
+### holidays?
+
+`Date`[] = `[]`
+
+Optional array of holidays.
+
+## Returns
+
+`Date`
+
+The resulting date.
+
+## Author
+
+## Dailker
