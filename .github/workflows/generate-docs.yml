@@ -22,8 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install --ignore-scripts
 
-      - name: Install TypeDoc
-        run: npm install --save-dev typedoc
+      - name: Install TypeDoc and markdown plugin
+        run: npm install --save-dev typedoc typedoc-plugin-markdown
 
       - name: Generate category docs
         run: |
@@ -31,7 +31,7 @@ jobs:
           for category in src/*; do
             if [ -d "$category" ]; then
               catname=$(basename "$category" | tr '[:lower:]' '[:upper:]')
-              npx typedoc --entryPoints "$category" --plugin typedoc-plugin-markdown --out "docs/${catname}_UTILS" --name "${catname}_UTILS" --hideBreadcrumbs --hidePageTitle --readme none
+              npx typedoc --entryPoints "$category" --plugin typedoc-plugin-markdown --out "docs/${catname}_UTILS.md" --name "${catname}_UTILS" --readme none
             fi
           done
 
