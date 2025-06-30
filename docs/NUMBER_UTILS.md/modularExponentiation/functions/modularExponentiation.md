@@ -1,0 +1,35 @@
+[**NUMBER_UTILS**](../../README.md)
+
+***
+
+[NUMBER_UTILS](../../README.md) / [modularExponentiation](../README.md) / modularExponentiation
+
+# Function: modularExponentiation()
+
+> **modularExponentiation**(`base`, `exponent`, `modulus`): `number`
+
+Defined in: [modularExponentiation.ts:9](https://github.com/dailker/everyutil/blob/fd2dd910f5fc45d6a6fda4227f10403d6a5baee7/src/number/modularExponentiation.ts#L9)
+
+Efficiently computes (base^exponent) % modulus.
+
+## Parameters
+
+### base
+
+`number`
+
+### exponent
+
+`number`
+
+### modulus
+
+`number`
+
+## Returns
+
+`number`
+
+## Author
+
+## Dailker
