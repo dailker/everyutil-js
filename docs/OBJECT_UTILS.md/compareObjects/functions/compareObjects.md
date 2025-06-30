@@ -1,0 +1,35 @@
+[**OBJECT_UTILS**](../../README.md)
+
+***
+
+[OBJECT_UTILS](../../README.md) / [compareObjects](../README.md) / compareObjects
+
+# Function: compareObjects()
+
+> **compareObjects**(`a`, `b`, `comparator?`): `boolean`
+
+Defined in: [compareObjects.ts:9](https://github.com/dailker/everyutil/blob/fb6c9c837496f567cf7883b581cd27d1c9507ebe/src/object/compareObjects.ts#L9)
+
+Deep equality check with custom comparator support.
+
+## Parameters
+
+### a
+
+`any`
+
+### b
+
+`any`
+
+### comparator?
+
+(`a`, `b`) => `boolean`
+
+## Returns
+
+`boolean`
+
+## Author
+
+## Dailker

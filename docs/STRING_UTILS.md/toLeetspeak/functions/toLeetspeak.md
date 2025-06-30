@@ -1,0 +1,31 @@
+[**STRING_UTILS**](../../README.md)
+
+***
+
+[STRING_UTILS](../../README.md) / [toLeetspeak](../README.md) / toLeetspeak
+
+# Function: toLeetspeak()
+
+> **toLeetspeak**(`str`): `string`
+
+Defined in: [toLeetspeak.ts:7](https://github.com/dailker/everyutil/blob/fb6c9c837496f567cf7883b581cd27d1c9507ebe/src/string/toLeetspeak.ts#L7)
+
+Converts a string to leetspeak.
+
+## Parameters
+
+### str
+
+`string`
+
+Input string.
+
+## Returns
+
+`string`
+
+Leetspeak string.
+
+## Author
+
+## Dailker

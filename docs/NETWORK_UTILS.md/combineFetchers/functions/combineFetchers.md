@@ -1,0 +1,49 @@
+[**NETWORK_UTILS**](../../README.md)
+
+***
+
+[NETWORK_UTILS](../../README.md) / [combineFetchers](../README.md) / combineFetchers
+
+# Function: combineFetchers()
+
+> **combineFetchers**\<`T`\>(...`fetchers`): (...`args`) => `Promise`\<`T`\>
+
+Defined in: [combineFetchers.ts:10](https://github.com/dailker/everyutil/blob/fb6c9c837496f567cf7883b581cd27d1c9507ebe/src/network/combineFetchers.ts#L10)
+
+Tries multiple fetchers in sequence, returning the first successful result.
+
+Example: combineFetchers(f1, f2)(...args)
+
+## Type Parameters
+
+### T
+
+`T` = `any`
+
+## Parameters
+
+### fetchers
+
+...(...`args`) => `Promise`\<`T`\>[]
+
+Fetcher functions.
+
+## Returns
+
+Combined fetcher.
+
+> (...`args`): `Promise`\<`T`\>
+
+### Parameters
+
+#### args
+
+...`any`[]
+
+### Returns
+
+`Promise`\<`T`\>
+
+## Author
+
+## Dailker

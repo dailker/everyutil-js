@@ -1,0 +1,37 @@
+[**LOGIC_UTILS**](../../README.md)
+
+***
+
+[LOGIC_UTILS](../../README.md) / [booleanIntegrator](../README.md) / booleanIntegrator
+
+# Function: booleanIntegrator()
+
+> **booleanIntegrator**(`threshold`): (`val`) => `boolean`
+
+Defined in: [booleanIntegrator.ts:5](https://github.com/dailker/everyutil/blob/fb6c9c837496f567cf7883b581cd27d1c9507ebe/src/logic/booleanIntegrator.ts#L5)
+
+Accumulates "pressure" from repeated true inputs and fires once it crosses a threshold.
+
+## Parameters
+
+### threshold
+
+`number`
+
+## Returns
+
+> (`val`): `boolean`
+
+### Parameters
+
+#### val
+
+`boolean`
+
+### Returns
+
+`boolean`
+
+## Author
+
+## Dailker

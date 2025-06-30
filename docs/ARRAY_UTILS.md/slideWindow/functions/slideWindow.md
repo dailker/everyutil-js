@@ -1,0 +1,41 @@
+[**ARRAY_UTILS**](../../README.md)
+
+***
+
+[ARRAY_UTILS](../../README.md) / [slideWindow](../README.md) / slideWindow
+
+# Function: slideWindow()
+
+> **slideWindow**\<`T`\>(`array`, `size`, `step?`): `T`[][]
+
+Defined in: [slideWindow.ts:10](https://github.com/dailker/everyutil/blob/fb6c9c837496f567cf7883b581cd27d1c9507ebe/src/array/slideWindow.ts#L10)
+
+Sliding window with overlap.
+
+## Type Parameters
+
+### T
+
+`T`
+
+## Parameters
+
+### array
+
+`T`[]
+
+### size
+
+`number`
+
+### step?
+
+`number` = `1`
+
+## Returns
+
+`T`[][]
+
+## Author
+
+## Dailker
