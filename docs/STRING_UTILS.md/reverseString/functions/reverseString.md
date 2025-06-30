@@ -8,7 +8,7 @@
 
 > **reverseString**(`str`): `string`
 
-Defined in: [reverseString.ts:7](https://github.com/dailker/everyutil/blob/a38b917744ea3f7e26fe7f9c999b904bd0535dcb/src/string/reverseString.ts#L7)
+Defined in: [reverseString.ts:7](https://github.com/dailker/everyutil/blob/0868190298b8cf2d6514015ce5723c81497e5681/src/string/reverseString.ts#L7)
 
 Reverses a string.
 

@@ -8,7 +8,7 @@
 
 > **intersection**\<`T`\>(`arr1`, `arr2`): `T`[]
 
-Defined in: [intersection.ts:8](https://github.com/dailker/everyutil/blob/a38b917744ea3f7e26fe7f9c999b904bd0535dcb/src/array/intersection.ts#L8)
+Defined in: [intersection.ts:8](https://github.com/dailker/everyutil/blob/0868190298b8cf2d6514015ce5723c81497e5681/src/array/intersection.ts#L8)
 
 Returns the intersection of two arrays.
 

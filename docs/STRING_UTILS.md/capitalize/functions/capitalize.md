@@ -8,7 +8,7 @@
 
 > **capitalize**(`str`): `string`
 
-Defined in: [capitalize.ts:7](https://github.com/dailker/everyutil/blob/a38b917744ea3f7e26fe7f9c999b904bd0535dcb/src/string/capitalize.ts#L7)
+Defined in: [capitalize.ts:7](https://github.com/dailker/everyutil/blob/0868190298b8cf2d6514015ce5723c81497e5681/src/string/capitalize.ts#L7)
 
 Capitalizes the first letter of a string.
 
