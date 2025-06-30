@@ -1,0 +1,33 @@
+[**ARRAY_UTILS**](../../README.md)
+
+***
+
+[ARRAY_UTILS](../../README.md) / [interleave](../README.md) / interleave
+
+# Function: interleave()
+
+> **interleave**\<`T`\>(...`arrays`): `T`[]
+
+Defined in: [interleave.ts:8](https://github.com/dailker/everyutil/blob/cee559aadda9e0c298e06364cba9020e97a8b19b/src/array/interleave.ts#L8)
+
+Mixes arrays in a round-robin pattern.
+
+## Type Parameters
+
+### T
+
+`T`
+
+## Parameters
+
+### arrays
+
+...`T`[][]
+
+## Returns
+
+`T`[]
+
+## Author
+
+## Dailker

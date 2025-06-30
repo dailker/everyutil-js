@@ -1,0 +1,33 @@
+[**NETWORK_UTILS**](../../README.md)
+
+***
+
+[NETWORK_UTILS](../../README.md) / [getHeadersCaseInsensitive](../README.md) / getHeadersCaseInsensitive
+
+# Function: getHeadersCaseInsensitive()
+
+> **getHeadersCaseInsensitive**(`headers`, `key`): `undefined` \| `string`
+
+Defined in: [getHeadersCaseInsensitive.ts:7](https://github.com/dailker/everyutil/blob/cee559aadda9e0c298e06364cba9020e97a8b19b/src/network/getHeadersCaseInsensitive.ts#L7)
+
+Retrieve HTTP header value ignoring case.
+
+## Parameters
+
+### headers
+
+Headers object or plain object.
+
+`Record`\<`string`, `string`\> | `Headers`
+
+### key
+
+`string`
+
+Header key to search for.
+
+## Returns
+
+`undefined` \| `string`
+
+The header value or undefined.

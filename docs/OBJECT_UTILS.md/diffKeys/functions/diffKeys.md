@@ -1,0 +1,31 @@
+[**OBJECT_UTILS**](../../README.md)
+
+***
+
+[OBJECT_UTILS](../../README.md) / [diffKeys](../README.md) / diffKeys
+
+# Function: diffKeys()
+
+> **diffKeys**(`a`, `b`): `string`[]
+
+Defined in: [diffKeys.ts:8](https://github.com/dailker/everyutil/blob/cee559aadda9e0c298e06364cba9020e97a8b19b/src/object/diffKeys.ts#L8)
+
+Gets keys present in one object but missing in another.
+
+## Parameters
+
+### a
+
+`object`
+
+### b
+
+`object`
+
+## Returns
+
+`string`[]
+
+## Author
+
+## Dailker

@@ -1,0 +1,31 @@
+[**OBJECT_UTILS**](../../README.md)
+
+***
+
+[OBJECT_UTILS](../../README.md) / [deepFreezeExcept](../README.md) / deepFreezeExcept
+
+# Function: deepFreezeExcept()
+
+> **deepFreezeExcept**(`obj`, `except`): `any`
+
+Defined in: [deepFreezeExcept.ts:8](https://github.com/dailker/everyutil/blob/cee559aadda9e0c298e06364cba9020e97a8b19b/src/object/deepFreezeExcept.ts#L8)
+
+Deeply freezes an object except specified keys.
+
+## Parameters
+
+### obj
+
+`any`
+
+### except
+
+`string`[] = `[]`
+
+## Returns
+
+`any`
+
+## Author
+
+## Dailker
