@@ -1,0 +1,27 @@
+[**DATE_UTILS**](../../README.md)
+
+***
+
+[DATE_UTILS](../../README.md) / [dateIsInFuture](../README.md) / dateIsInFuture
+
+# Function: dateIsInFuture()
+
+> **dateIsInFuture**(`date`): `boolean`
+
+Defined in: [dateIsInFuture.ts:7](https://github.com/dailker/everyutil/blob/bf8adc96ac84c1d33f18a4705d529c444472a677/src/date/dateIsInFuture.ts#L7)
+
+Checks if a date is in the future relative to now.
+
+## Parameters
+
+### date
+
+`Date`
+
+## Returns
+
+`boolean`
+
+## Author
+
+## Dailker
