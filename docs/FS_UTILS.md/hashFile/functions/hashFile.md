@@ -1,0 +1,35 @@
+[**FS_UTILS**](../../README.md)
+
+***
+
+[FS_UTILS](../../README.md) / [hashFile](../README.md) / hashFile
+
+# Function: hashFile()
+
+> **hashFile**(`path`, `algorithm?`): `Promise`\<`string`\>
+
+Defined in: [hashFile.ts:9](https://github.com/dailker/everyutil/blob/26e2bb73429918cf0d08899e9efd90b82a42c92e/src/fs/hashFile.ts#L9)
+
+Generates a content hash of a file for deduplication or verification.
+
+## Parameters
+
+### path
+
+`string`
+
+File path.
+
+### algorithm?
+
+`"sha256"` | `"md5"`
+
+## Returns
+
+`Promise`\<`string`\>
+
+File hash.
+
+## Author
+
+## Dailker
