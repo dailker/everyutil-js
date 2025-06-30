@@ -1,0 +1,11 @@
+[**DATE_UTILS**](../README.md)
+
+***
+
+[DATE_UTILS](../README.md) / humanizeDuration
+
+# humanizeDuration
+
+## Functions
+
+- [humanizeDuration](functions/humanizeDuration.md)
