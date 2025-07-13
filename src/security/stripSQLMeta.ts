@@ -6,5 +6,5 @@
  * @returns {string} The sanitized string.
  */
 export function stripSQLMeta(input: string): string {
-    return input.replace(/[;\'"`--]/g, '');
+    return input.replace(/[;'"`;-]/g, '');
 }
