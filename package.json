@@ -28,10 +28,7 @@
     "jschardet": "^3.1.4",
     "mime-types": "^3.0.1",
     "sharp": "^0.34.3",
-    "typescript": "^5.0.0",
-    "adm-zip": "^0.5.10",
-    "fluent-ffmpeg": "^2.1.2",
-    "mime-types": "^2.1.35"
+    "typescript": "^5.8.3"
   },
   "keywords": [
     "utility",
@@ -107,9 +104,9 @@
     "obscure email"
   ],
   "devDependencies": {
-    "@types/node": "^20.0.0",
     "@types/adm-zip": "^0.5.0",
     "@types/fluent-ffmpeg": "^2.1.21",
-    "@types/mime-types": "^2.1.1"
+    "@types/mime-types": "^2.1.1",
+    "@types/node": "^20.0.0"
   }
 }
